@@ -1,0 +1,14 @@
+{
+  "name": "connector-file",
+  "version": "1.0.0",
+  "description": "File connector for Agenxia agents",
+  "main": "api/files.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node api/files.js"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": "18.x"
+  }
+}

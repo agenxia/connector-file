@@ -1,0 +1,29 @@
+{
+  "name": "File Connector",
+  "description": "Read, write, list, and transform files via a simple API with storage support",
+  "type": "connector",
+  "complexity": "beginner",
+  "features": [
+    "File read/write",
+    "Directory listing",
+    "File transformation (JSON, CSV)",
+    "In-memory storage",
+    "Size limits",
+    "MIME type detection"
+  ],
+  "env_vars": [
+    "MAX_FILE_SIZE",
+    "AGENT_NAME"
+  ],
+  "icon": "📁",
+  "connector": {
+    "service_name": "file",
+    "auth_type": "none",
+    "capabilities": [
+      "read",
+      "write",
+      "list",
+      "transform"
+    ]
+  }
+}

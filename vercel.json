@@ -1,0 +1,11 @@
+{
+  "functions": {
+    "api/**/*.js": {
+      "runtime": "@vercel/node@3"
+    }
+  },
+  "env": {
+    "MAX_FILE_SIZE": "5242880",
+    "AGENT_NAME": "{{AGENT_NAME}}"
+  }
+}
